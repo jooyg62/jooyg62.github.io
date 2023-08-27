@@ -1,0 +1,23 @@
+{"0": {
+    "doc": "Configuration",
+    "title": "Configuration",
+    "content": " ",
+    "url": "/docs/configuration/",
+    
+    "relUrl": "/docs/configuration/"
+  },"1": {
+    "doc": "Home",
+    "title": "Focus on writing good documentation2",
+    "content": "Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages. ",
+    "url": "/#focus-on-writing-good-documentation2",
+    
+    "relUrl": "/#focus-on-writing-good-documentation2"
+  },"2": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  }
+}
