@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: JGSEO's Blog
 description: JGSEO's Blog Docs
-theme: just-the-docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jooyg62.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: just-the-docs/just-the-docs # for github-metadata
