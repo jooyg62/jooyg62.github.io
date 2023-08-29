@@ -6,8 +6,4 @@ description: "main page"
 permalink: /
 ---
 
-# Focus on writing good documentation2
-{: .fs-9 }
-
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
+JGSEO's 개발과 관련된 내용을 정리하는 블로그입니다.
