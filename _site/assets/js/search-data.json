@@ -6,27 +6,55 @@
     
     "relUrl": "/docs/Spring%20Framework/BasicLearning/"
   },"1": {
+    "doc": "Concept",
+    "title": "Concept",
+    "content": " ",
+    "url": "/docs/Spring%20Framework/Concept/",
+    
+    "relUrl": "/docs/Spring%20Framework/Concept/"
+  },"2": {
+    "doc": "Concept",
+    "title": "IoC(Inversion of Control) 컨테이너란?",
+    "content": " ",
+    "url": "/docs/Spring%20Framework/Concept/#iocinversion-of-control-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EB%9E%80",
+    
+    "relUrl": "/docs/Spring%20Framework/Concept/#iocinversion-of-control-컨테이너란"
+  },"3": {
+    "doc": "Concept",
+    "title": "IoC의 분류",
+    "content": "Dl(Dependency Lookup)과 DI(Dependency Injection) . ",
+    "url": "/docs/Spring%20Framework/Concept/#ioc%EC%9D%98-%EB%B6%84%EB%A5%98",
+    
+    "relUrl": "/docs/Spring%20Framework/Concept/#ioc의-분류"
+  },"4": {
+    "doc": "Concept",
+    "title": "POJO(Plain Old Java Object)란?",
+    "content": "빈(Bean) . 빈 팩토리(BeanFactory) . 컨테이너란? . 어플리케이션콘텍스트(ApplicationContext) . ",
+    "url": "/docs/Spring%20Framework/Concept/#pojoplain-old-java-object%EB%9E%80",
+    
+    "relUrl": "/docs/Spring%20Framework/Concept/#pojoplain-old-java-object란"
+  },"5": {
     "doc": "Spring Framework",
     "title": "Spring Framework Summary",
     "content": " ",
     "url": "/docs/Spring%20Framework/#spring-framework-summary",
     
     "relUrl": "/docs/Spring%20Framework/#spring-framework-summary"
-  },"2": {
+  },"6": {
     "doc": "Spring Framework",
     "title": "Spring Framework",
     "content": " ",
     "url": "/docs/Spring%20Framework/",
     
     "relUrl": "/docs/Spring%20Framework/"
-  },"3": {
+  },"7": {
     "doc": "Configuration_sub_title_default",
     "title": "Configuration_sub_title_default",
     "content": " ",
     "url": "/docs/Spring%20Framework/default/",
     
     "relUrl": "/docs/Spring%20Framework/default/"
-  },"4": {
+  },"8": {
     "doc": "Home",
     "title": "Home",
     "content": "JGSEO’s 개발과 관련된 내용을 정리하는 블로그입니다. ",
