@@ -90,3 +90,29 @@ class OwnerController {
 ```
 
 ---
+
+`@InitBinder` 이란?
+클라이언트에서 Spring 컨트롤러로 HTTP 요청을 보낼 때, 요청 본문을 Java 객체에 매핑하기 위해 데이터 바인딩 과정을 거치게된다. `@InitBinder`는 데이터 바인딩 과정이 이루어지기 전에 실행될 내용을 정의하는 어노테이션이다.
+
+내용에는 주로 데이터 유형을 변경하거나 Valid 를 체크하는 로직 등이 있다. 아래 `setAllowedFields` 함수를 보자.
+
+`setDisallowedFields("id")` 함수는 요청 본문에 id 필드가 와도 이를 허가하지 않겠다는 뜻이다. 디버깅 모드로 id 를 포함하여 Request 를 던졌을때, 에러를 발생시키지는 않았지만 id 에 null 값이 들어오는 것을 확인하였다.
+
+```
+@Controller
+class OwnerController {
+
+	private static final String VIEWS_OWNER_CREATE_OR_UPDATE_FORM = "owners/createOrUpdateOwnerForm";
+
+	private final OwnerRepository owners;
+
+	public OwnerController(OwnerRepository clinicService) {
+		this.owners = clinicService;
+	}
+
+	@InitBinder
+	public void setAllowedFields(WebDataBinder dataBinder) {
+		dataBinder.setDisallowedFields("id");
+	}
+...
+```
